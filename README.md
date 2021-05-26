@@ -1,0 +1,3 @@
+# mouseCPS
+
+just click, click, click...
