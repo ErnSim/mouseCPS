@@ -24,6 +24,7 @@ html{
 
 .counter-box{
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 
@@ -31,6 +32,10 @@ html{
 	background-color: black;
 	color: white;
 	height: 100vh;
+}
+
+.box{
+	display: flex;
 }
 
 .hit-box{
@@ -44,8 +49,8 @@ html{
 	height: 100vh;
 }
 
-#valueOfCPS{
-	margin-left: 0.3em;
+p{
+	margin-right: 0.3em;
 }
 
 @media (orientation: portrait) {
