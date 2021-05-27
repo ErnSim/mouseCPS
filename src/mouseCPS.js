@@ -30,7 +30,12 @@ function calculateCPS() {
 
 	// Display results
 	document.getElementById('valueOfCPS').innerHTML = CPS;
-	document.getElementById('valueOfMaxCPS').innerHTML = maxCPS;
+	if (maxCPS == 0) {	
+		document.getElementById('valueOfMaxCPS').innerHTML = '0.00';
+	}
+	else {
+		document.getElementById('valueOfMaxCPS').innerHTML = maxCPS;
+	}
 	console.log('time passed: ' + timeDifference + ' | CPS: ' + CPS + ' | max CPS: ' + maxCPS);
 }
 
