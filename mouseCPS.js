@@ -6,8 +6,8 @@ let startTime = new Date();
 
 // Functions execute
 document.getElementById('hit-area').addEventListener('click', addClick);
-setInterval(calculateCPS, 100);
-setInterval(isIdle, 100);
+setInterval(calculateCPS, 50);
+setInterval(isIdle, 50);
 
 //////////////////////////////////////////////////////////////////////////
 
